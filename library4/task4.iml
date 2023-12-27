@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="Hibernate" />
+        <datasource-mapping>
+          <factory-entry name="Task4" value="443bbab3-048f-410b-8a93-0fed7fcb9130" />
+          <factory-entry name="task4" value="443bbab3-048f-410b-8a93-0fed7fcb9130" />
+        </datasource-mapping>
+        <naming-strategy-map>
+          <unit-entry name="Task4" value="org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl" />
+          <unit-entry name="task4" />
+        </naming-strategy-map>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+  </component>
+</module>

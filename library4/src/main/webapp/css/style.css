@@ -1,0 +1,171 @@
+body {
+    background-color: ghostwhite;
+}
+
+header, footer {
+    background-color: #813c3c;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header > h1 {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+hr {
+    color: #813c3c;
+    width: 96%;
+}
+
+img {
+    border: solid 1px gray;
+    display: block;
+}
+
+table {
+    display: inline-block;
+    text-align: right;
+    border-spacing: 20px 10px;
+}
+
+table caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+tr th {
+    font-size: small;
+    white-space: nowrap;
+}
+
+tr td {
+    width: 100%;
+}
+
+.main {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.container {
+    box-shadow: 0 2px 5px 0 black;
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nav-block {
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: #813c3c;
+}
+
+.nav-panel {
+    padding: 10px;
+}
+
+.nav-panel a:hover {
+    color: #020d25;
+}
+
+.content {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item-block {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    border: #813c3c 1px solid;
+    border-radius: 5px;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item-short {
+    position: relative;
+    height: 350px;
+    background-color: ghostwhite;
+    text-align: center;
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 gray;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.item-short:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.item-short:active {
+    border: 2px inset;
+    background-color: gray;
+}
+
+.preview {
+    height: 300px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.full-view {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#logo {
+    border-radius: 30px;
+}
+
+.short-desc {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 320px;
+    bottom: 10px;
+}
+
+#description {
+    margin: 0 20px 10px 20px;
+}
